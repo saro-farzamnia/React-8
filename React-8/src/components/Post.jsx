@@ -6,6 +6,7 @@ const Post = () => {
     const [error,setError]=useState(false);
     const [id,setId]=useState("");
 
+    
     useEffect(()=>{
         const controller = new AbortController();
             const fetchData = async () => {
